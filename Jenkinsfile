@@ -58,8 +58,7 @@ pipeline {
                 }
             }
         }
-
-
+    } // Close stages block
 
     post {
         always {
