@@ -31,7 +31,7 @@ pipeline {
             steps {
                 dir('terraform') {
                     git(
-                        url: 'https://github.com/AnandJoy7/terra_auto_testing.git',
+                        url: 'https://github.com/AnandJoy7/V1.git',
                         branch: 'main',
                         credentialsId: 'github-credentials'
                     )
