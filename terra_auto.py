@@ -192,7 +192,7 @@ def main():
     # Configuration
     region = "us-east-1"  # Change this to your desired region
     vpc_ids = [  # List your VPC IDs here
-        "vpc-0b1527cca59e16988",
+        "vpc-0e8104893617c26c7",
         "vpc-0782040debc9e8a1f",
         # Add more VPC IDs as needed
     ]
