@@ -45,7 +45,7 @@ pipeline {
                     script {
                         def result = sh(script: '''
                         . ../venv/bin/activate
-                        python3 terra_auto8.py > terraform_output.log 2>&1
+                        python3 terra_auto.py > terraform_output.log 2>&1
                         deactivate
                         ''', returnStatus: true)
                         
