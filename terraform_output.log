@@ -1,0 +1,50 @@
+Creating Terraform files...
+Fetching VPC details...
+Updating terraform.tfvars...
+Importing resources...
+
+Executing: terraform init
+[0m[1mInitializing the backend...[0m
+
+Importing VPC vpc-0e8104893617c26c7...
+
+Executing: terraform import module.vpc_resources.aws_vpc.imported_vpc["vpc-0e8104893617c26c7"] vpc-0e8104893617c26c7
+[0m[1mmodule.vpc_resources.aws_vpc.imported_vpc["vpc-0e8104893617c26c7"]: Importing from ID "vpc-0e8104893617c26c7"...[0m
+Importing Subnet subnet-0b6a455a5c7d6b667...
+
+Executing: terraform import module.vpc_resources.aws_subnet.imported_subnet["subnet-0b6a455a5c7d6b667"] subnet-0b6a455a5c7d6b667
+[0m[1mmodule.vpc_resources.aws_subnet.imported_subnet["subnet-0b6a455a5c7d6b667"]: Importing from ID "subnet-0b6a455a5c7d6b667"...[0m
+Importing Subnet subnet-08f049e34c971ce41...
+
+Executing: terraform import module.vpc_resources.aws_subnet.imported_subnet["subnet-08f049e34c971ce41"] subnet-08f049e34c971ce41
+[0m[1mmodule.vpc_resources.aws_subnet.imported_subnet["subnet-08f049e34c971ce41"]: Importing from ID "subnet-08f049e34c971ce41"...[0m
+
+Importing Internet Gateway igw-0d8443ef15ea3bf64...
+
+Executing: terraform import module.vpc_resources.aws_internet_gateway.imported_igw["igw-0d8443ef15ea3bf64"] igw-0d8443ef15ea3bf64
+[0m[1mmodule.vpc_resources.aws_internet_gateway.imported_igw["igw-0d8443ef15ea3bf64"]: Importing from ID "igw-0d8443ef15ea3bf64"...[0m
+
+Importing NAT Gateway nat-06247d8c4c701c28b...
+
+Executing: terraform import module.vpc_resources.aws_nat_gateway.imported_nat["nat-06247d8c4c701c28b"] nat-06247d8c4c701c28b
+[0m[1mmodule.vpc_resources.aws_nat_gateway.imported_nat["nat-06247d8c4c701c28b"]: Importing from ID "nat-06247d8c4c701c28b"...[0m
+
+Importing Security Group sg-07febebb2fa3c7ad4...
+
+Executing: terraform import module.vpc_resources.aws_security_group.imported_sg["sg-07febebb2fa3c7ad4"] sg-07febebb2fa3c7ad4
+[0m[1mmodule.vpc_resources.aws_security_group.imported_sg["sg-07febebb2fa3c7ad4"]: Importing from ID "sg-07febebb2fa3c7ad4"...[0m
+
+Importing Route Table rtb-0da8e500237eed745...
+
+Executing: terraform import module.vpc_resources.aws_route_table.imported_rt["rtb-0da8e500237eed745"] rtb-0da8e500237eed745
+[0m[1mmodule.vpc_resources.aws_route_table.imported_rt["rtb-0da8e500237eed745"]: Importing from ID "rtb-0da8e500237eed745"...[0m
+
+Importing Route Table rtb-038eca0edaec00082...
+
+Executing: terraform import module.vpc_resources.aws_route_table.imported_rt["rtb-038eca0edaec00082"] rtb-038eca0edaec00082
+[0m[1mmodule.vpc_resources.aws_route_table.imported_rt["rtb-038eca0edaec00082"]: Importing from ID "rtb-038eca0edaec00082"...[0m
+
+Importing Route Table rtb-0b8805f44451f08a6...
+
+Executing: terraform import module.vpc_resources.aws_route_table.imported_rt["rtb-0b8805f44451f08a6"] rtb-0b8805f44451f08a6
+[0m[1mmodule.vpc_resources.aws_route_table.imported_rt["rtb-0b8805f44451f08a6"]: Importing from ID "rtb-0b8805f44451f08a6"...[0m
